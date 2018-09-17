@@ -1,0 +1,22 @@
+// Header styles
+
+.page-header {
+  padding: 15px 0;
+  background-color: #fff;
+
+  .navbar-brand {
+    max-width: 150px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      padding: .5rem 1rem;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+    }
+  }
+}
