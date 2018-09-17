@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Roboto+Slab:400,700');
 
+// Bootstrap styles
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Customizing Bootstrap
 @import "variables";
 
 // Common
@@ -11,9 +17,10 @@
 
 // Layouts
 @import "layouts/home";
+@import "layouts/header";
+@import "layouts/footer";
 @import "layouts/interior";
 
 // Partials
-@import "partials/footer";
 @import "partials/sidebar";
 @import "partials/posts";
