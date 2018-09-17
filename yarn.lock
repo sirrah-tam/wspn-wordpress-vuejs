@@ -163,6 +163,10 @@ adjust-sourcemap-loader@^1.1.0:
     object-path "^0.9.2"
     regex-parser "^2.2.1"
 
+ajv-errors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ajv-errors/-/ajv-errors-1.0.0.tgz#ecf021fa108fd17dfb5e6b383f2dd233e31ffc59"
+
 ajv-keywords@^1.0.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
@@ -3042,12 +3046,12 @@ file-loader@^0.11.1:
   dependencies:
     loader-utils "^1.0.2"
 
-file-loader@^1.1.4:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-1.1.5.tgz#91c25b6b6fbe56dae99f10a425fd64933b5c9daa"
+file-loader@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/file-loader/-/file-loader-2.0.0.tgz#39749c82f020b9e85901dcff98e8004e6401cfde"
   dependencies:
     loader-utils "^1.0.2"
-    schema-utils "^0.3.0"
+    schema-utils "^1.0.0"
 
 file-type@^3.1.0:
   version "3.9.0"
@@ -6991,6 +6995,14 @@ schema-utils@^0.4.5:
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-0.4.7.tgz#ba74f597d2be2ea880131746ee17d0a093c68187"
   dependencies:
     ajv "^6.1.0"
+    ajv-keywords "^3.1.0"
+
+schema-utils@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-1.0.0.tgz#0b79a93204d7b600d4b2850d1f66c2a34951c770"
+  dependencies:
+    ajv "^6.1.0"
+    ajv-errors "^1.0.0"
     ajv-keywords "^3.1.0"
 
 scss-tokenizer@^0.2.3:
