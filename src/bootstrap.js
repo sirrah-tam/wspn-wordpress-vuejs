@@ -6,4 +6,6 @@ try {
     'X-CSRF-TOKEN': window.WordPress.csrfToken,
     'X-Requested-With': 'XMLHttpRequest'
   };
-} catch (e) {}
+} catch (e) {
+  console.log(e);
+}
