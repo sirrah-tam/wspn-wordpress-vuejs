@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Roboto+Slab:400,700');
 
+@import "./variables.scss";
 // Bootstrap styles
-@import "node_modules/bootstrap/scss/functions";
-@import "node_modules/bootstrap/scss/variables";
-@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/bootstrap";
+// @import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-vue/dist/bootstrap-vue.css";
 
 // Customizing Bootstrap
-@import "variables";
 
 // Common
 @import "common/global";

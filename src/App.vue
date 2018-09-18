@@ -11,11 +11,10 @@
 
     <app-header></app-header>
 
-    <transition name="page-transition" mode="out-in" appear>
-      <div class="page-content-wrapper">
-        <router-view></router-view>
-      </div>
-    </transition>
+    <div class="bg-primary">
+      <app-home></app-home>
+    </div>
+
 
     <app-footer></app-footer>
   </div>
@@ -25,6 +24,7 @@
 import { mapGetters, mapActions, mapMutations } from 'vuex'
 import Header from './components/partials/Header'
 import Footer from './components/partials/Footer'
+import Home from './components/Home'
 
 export default {
   data() {
@@ -45,7 +45,8 @@ export default {
 
   components: {
     appHeader: Header,
-    appFooter: Footer
+    appFooter: Footer,
+    appHome: Home
   },
 
   watch: {
@@ -61,6 +62,3 @@ export default {
   }
 }
 </script>
-<style lang="scss">
-  @import './styles/app.scss';
-</style>

@@ -44,6 +44,7 @@
     "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
-    "vue": "2.4.4"
+    "vue": "2.4.4",
+    "vue-smooth-scroll": "^1.0.13"
   }
 }

@@ -1,5 +1,9 @@
 <template>
-    <footer class="footer">
-        This is the footer.
+    <footer class="footer py-5">
+      <b-container>
+        <b-row>
+          <b-col>Copyright &copy; 2018</b-col>
+        </b-row>
+      </b-container>
     </footer>
 </template>
