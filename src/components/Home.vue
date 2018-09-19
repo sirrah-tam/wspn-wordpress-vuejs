@@ -8,8 +8,9 @@
       </b-jumbotron>
 
       <app-details></app-details>
+      <app-accessibility></app-accessibility>
       <app-sponsors></app-sponsors>
-      <app-Contact></app-contact>
+      <app-contact></app-contact>
     </template>
   </b-container>
 </template>
@@ -17,12 +18,14 @@
 <script>
 import { mapGetters } from 'vuex'
 import Details from './sections/Details'
+import Accessibility from './sections/Accessibility'
 import Sponsors from './sections/Sponsors'
 import Contact from './sections/Contact'
 
 export default {
   components: {
     appDetails: Details,
+    appAccessibility: Accessibility,
     appSponsors: Sponsors,
     appContact: Contact
   },
