@@ -10,6 +10,7 @@
 
 // Common
 @import "common/global";
+@import "common/typography";
 
 // Components
 @import "components/buttons";
@@ -20,6 +21,9 @@
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/interior";
+
+// Sections
+@import "sections/sponsors";
 
 // Partials
 @import "partials/sidebar";

@@ -1,16 +1,14 @@
 .page-wrapper {
-  padding-top: 130px; // Fixed header offset
+  padding-top: 66px; // Fixed header offset
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 94px;
+  }
 }
 
 .page-content-wrapper {
   flex: 1;
-}
-
-.widget {
-  ul {
-    margin-left: 2rem;
-  }
 }
