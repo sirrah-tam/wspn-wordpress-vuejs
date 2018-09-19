@@ -10,7 +10,11 @@
   }
 
   .navbar-brand {
-    max-width: 100px;
+    max-width: 60px;
+
+    @include media-breakpoint-up(md) {
+      max-width: 100px;
+    }
 
     img {
       width: 100%;
