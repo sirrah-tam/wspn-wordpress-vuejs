@@ -1,6 +1,6 @@
 <template lang="html">
-  <div id="contact" class="text-white">
-    <h2>Contact</h2>
+  <div id="contact" class="text-white my-3">
+    <h2 class="mb-5 text-center">Contact</h2>
     <div class="details__content" v-html="pageContent.content.rendered">
 
     </div>
