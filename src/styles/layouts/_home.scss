@@ -1,7 +1,18 @@
 // Homepage styles
 
-.vue--page--home {
+.home {
   .jumbotron {
     margin-top: 0;
+    box-shadow: 1px 1px 5px $gray-900;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 50px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
   }
 }

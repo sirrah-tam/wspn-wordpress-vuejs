@@ -1,5 +1,5 @@
 <template>
-  <b-container class="py-5">
+  <b-container class="home py-5">
     <template v-if="allPagesLoaded">
       <b-jumbotron class="text-center">
         <div class="page-content" v-html="pageContent.content.rendered">
