@@ -1,7 +1,7 @@
 <template lang="html">
   <div id="sponsors" class="text-white">
-    <h2>Sponsors</h2>
-    <div class="details__content" v-html="pageContent.content.rendered">
+    <h2 class="text-center mb-5">Sponsors</h2>
+    <div class="sponsors__content" v-html="pageContent.content.rendered">
 
     </div>
   </div>
