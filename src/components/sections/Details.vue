@@ -1,6 +1,6 @@
 <template lang="html">
   <b-jumbotron id="details" class="text-white" bg-variant="secondary">
-    <div class="page-content">
+    <div class="section-content">
       <h2>Details</h2>
       <hr>
       <div class="details__content" v-html="pageContent.content.rendered">
