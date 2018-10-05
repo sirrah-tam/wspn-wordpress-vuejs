@@ -1,5 +1,5 @@
 <template lang="html">
-  <b-jumbotron id="details" class="text-white" bg-variant="secondary">
+  <b-jumbotron id="details" class="" bg-variant="secondary">
     <div class="section-content">
       <h2>Details</h2>
       <hr>

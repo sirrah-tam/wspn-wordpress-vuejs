@@ -10,13 +10,13 @@
 
 $white:    #fff !default;
 $gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
+$gray-200: #e8e8e8 !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #ced4da !default;
 $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
-$gray-800: #343a40 !default;
+$gray-800: #303030 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
 
@@ -38,15 +38,15 @@ $grays: map-merge(
 );
 
 
-$blue:    #2b257a !default;
+$blue:    #2e52ab !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #dc3545 !default;
+$red:     #eb222c !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
-$teal:    #20c997 !default;
+$teal:    #3d4aa8 !default;
 $cyan:    #17a2b8 !default;
 
 $colors: () !default;
@@ -71,7 +71,8 @@ $colors: map-merge(
 );
 
 $primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$secondary:     $gray-800 !default;
+$tertiary:      $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -109,3 +110,17 @@ $headings-font-family:        "Montserrat", sans-serif !default;
 $headings-font-weight:        500 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              inherit !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $white !default;
+$body-color:                $gray-200 !default;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                $red !default;
+$link-decoration:           none !default;

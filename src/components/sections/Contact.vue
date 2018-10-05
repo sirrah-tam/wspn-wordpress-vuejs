@@ -1,10 +1,10 @@
 <template lang="html">
-  <div id="contact" class="text-white my-3">
+  <b-jumbotron id="contact" class="contact my-3" bg-variant="secondary">
     <h2 class="mb-5 text-center">Contact</h2>
     <div class="details__content" v-html="pageContent.content.rendered">
 
     </div>
-  </div>
+  </b-jumbotron>
 </template>
 
 <script>
