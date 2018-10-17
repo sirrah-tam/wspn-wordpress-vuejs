@@ -1,5 +1,5 @@
 <template lang="html">
-  <div id="sponsors" class="text-white">
+  <div id="sponsors" class="sponsors" bg-variant="tertiary">
     <h2 class="text-center mb-5">Sponsors</h2>
     <div class="sponsors__content" v-html="pageContent.content.rendered">
 

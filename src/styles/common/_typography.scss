@@ -34,4 +34,17 @@ h4 {
 
 p {
   line-height: 2;
+  letter-spacing: .03em;
+}
+
+a {
+  font-weight: 600;
+  text-decoration: underline;
+  transition: all ease .5s;
+  letter-spacing: .03em;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
 }
