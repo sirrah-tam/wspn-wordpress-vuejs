@@ -1,0 +1,10 @@
+.btn {
+  box-shadow: 1px 1px 5px $gray-900;
+  transition: all ease .5s;
+  letter-spacing: .05em;
+
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+}
