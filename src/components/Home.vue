@@ -7,6 +7,7 @@
         </div>
       </b-jumbotron>
 
+      <app-videos></app-videos>
       <app-details></app-details>
       <app-accessibility></app-accessibility>
       <app-sponsors></app-sponsors>
@@ -21,13 +22,15 @@ import Details from './sections/Details'
 import Accessibility from './sections/Accessibility'
 import Sponsors from './sections/Sponsors'
 import Contact from './sections/Contact'
+import Videos from './sections/Videos'
 
 export default {
   components: {
     appDetails: Details,
     appAccessibility: Accessibility,
     appSponsors: Sponsors,
-    appContact: Contact
+    appContact: Contact,
+    appVideos: Videos
   },
 
   computed: {
